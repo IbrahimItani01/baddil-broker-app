@@ -107,7 +107,7 @@ const Users = ({ isBroker = false }: Props) => {
 	return (
 		<div className='p-4'>
 			<h1 className='text-2xl font-bold mb-4'>
-				{isBroker ? "Brokers" : "Barterers"} List
+				Clients
 			</h1>
 			<Table aria-label={`${isBroker ? "Brokers" : "Barterers"} Table`}>
 				<TableHeader>

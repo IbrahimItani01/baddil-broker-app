@@ -45,7 +45,7 @@ const renderCustomizedLabel = ({
 const UsersOverview = () => {
 	return (
 		<div className='text-2xl font-semibold ml-5 flex border-2 w-fit mt-20 rounded-medium p-5'>
-			<h1>Users</h1>
+			<h1>Clients</h1>
 			<ResponsiveContainer
 				width={300}
 				height={300}

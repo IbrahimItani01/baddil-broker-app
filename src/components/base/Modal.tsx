@@ -4,8 +4,8 @@ import { X } from "lucide-react";
 interface CustomModalProps {
 	header: string;
 	body: string;
-	isOpen: any;
-	onOpenChange: any;
+	isOpen: boolean | undefined;
+	onOpenChange: ((isOpen: boolean) => void) | undefined;
 }
 
 const CustomModal = ({

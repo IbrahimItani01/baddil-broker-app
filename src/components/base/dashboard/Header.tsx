@@ -9,7 +9,7 @@ const Header = () => {
 		<div className='flex flex-col w-full pt-2'>
 			<div className='flex justify-between  items-center h-[5%] px-5'>
 				<h1 className='text-2xl font-semibold'>
-					Welcome Back, {userName || "Ibrahim"}!
+					Welcome Back, {userName || "User"}!
 				</h1>
 				{profilePictureUrl ? (
 					<Image src={profilePictureUrl} />
